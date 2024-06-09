@@ -2,7 +2,7 @@
   "name": "user-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "C:/dev/user-task/build",
+  "homepage": "https://rodrigomartins20.github.io/user-task",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
