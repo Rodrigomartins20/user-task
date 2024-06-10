@@ -8,7 +8,14 @@ function App() {
         <button id="wharever">
             <nav id="sidebar-menu">
              <ul>
-               <li><a href="https://rodrigomartins20.github.io/user-task/">MAIN PAGE</a></li>
+               <li>className="App-link"
+                <a
+                  className="App-link"
+                  href="https://rodrigomartins20.github.io/user-task/"
+                >
+                 MAIN PAGE
+                </a>
+               </li>
              </ul>
             </nav>
         </button>
