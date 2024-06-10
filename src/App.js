@@ -4,15 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <button class="button" id="wharever">
-      <nav id="sidebar-menu">
-       <a 
-         href="https://rodrigomartins20.github.io/user-task/" 
-         class="App-link">
-         MAIN PAGE
-       </a>
-      </nav>
-     </button>
+     <nav id="sidebar-menu">
+      <button class="button" id="wharever">
+        <a 
+          href="https://rodrigomartins20.github.io/user-task/" 
+          class="App-link">
+          MAIN PAGE
+        </a>
+       </button>
+      </nav>   
      <header className="App-header">
        <img src={logo} className="App-logo" alt="logo" />
        <p>
