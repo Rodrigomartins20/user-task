@@ -29,7 +29,7 @@
     height: 50px;
     display: block;
     border: none;
-    background: linear-gradient( to bottom, #3D0E61, #3D0E61 20%, white 20%, white 40%, #3D0E61 40%, #3D0E61 60%, white 60%, white 80%, #3D0E61 80%, #3D0E61 100% );
+    background: linear-gradient( to bottom, white 100% );
 }
 
 #sidebar-menu {
@@ -46,10 +46,6 @@
     #sidebar-menu {
         display: none;
     }
-}
-
-.overlay {
-    /* Maybe if the future hahaha */
 }
 
 .App-link {
