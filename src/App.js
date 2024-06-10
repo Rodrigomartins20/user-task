@@ -4,18 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <button id="wharever">
+     <button class="button" id="wharever">
       <nav id="sidebar-menu">
-       <ul>
-        <li>
-         <a
-          className="App-link"
-          href="https://rodrigomartins20.github.io/user-task/"
-         >
-          MAIN PAGE
-         </a>
-        </li>
-       </ul>
+       <a 
+         href="https://rodrigomartins20.github.io/user-task/" 
+         class="App-link">
+         MAIN PAGE
+       </a>
       </nav>
      </button>
      <header className="App-header">
