@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,28 +24,36 @@
   color: white;
 }
 
-#wharever {
-    width: 100px;
-    height: 50px;
-    display: block;
+.button-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #64305F;
+}
+
+.main-button {
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
     border: none;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-#sidebar-menu {
-    position: absolute;
+.main-button:hover {
+    background-color: #864180;
+    transform: translateY(-1px);
 }
 
-@media screen and (max-width: 768px) {
-    #sidebar-menu {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    #sidebar-menu {
-        display: none;
-    }
+main-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .App-link {
@@ -59,4 +67,99 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.App table {
+  width: 50%;
+  border-collapse: inherit;
+  margin: 20px;
+}
+
+.App th, .App td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.App th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.App tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.App tr:hover {
+  background-color: #ddd;
+}
+
+.App input[type="text"] {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.App input[type="checkbox"] {
+  margin-right: 5px;
 }
