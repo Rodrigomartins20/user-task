@@ -129,9 +129,8 @@ input[type="checkbox"] {
 }
 
 .App table {
-  width: 50%;
-  border-collapse: inherit;
-  margin: 20px;
+    width: 50%;
+    margin: 0 auto
 }
 
 .App th, .App td {
